@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links 02</title>
+    <style>
+        /*
+           Seletores Personalizados
+
+            # = id
+            . = class
+            : = pseudo-class
+            :: = pseudo-element
+            > = children
+        */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        a{
+            color: red;
+        }
+        a:visited {
+            color: darkred;
+        }
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+        a:active{
+            color: yellow;
+        }
+        
+        a::before{
+            content: '➩';
+        }
+        a::after{
+            content: '➨	';
+        }
+    </style>
+</head>
+<body>
+    <h1>Personalizando Links</h1>
+    <ul>
+    <li><a href="https://github.com/Netoamf"target="_blank"rel="external">Repositorio do github</a></li>
+    <li><a href="https://twitter.com/opanetone"target="_blank"rel="external">Twitter</a></li>
+    <li><a href="https://www.instagram.com/neto_amf/" target="_blank"rel="external">Instagram</a></li>
+    </ul>
+</body>
+</html>

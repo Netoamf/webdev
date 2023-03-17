@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTLM 5</title>
+</head>
+<body>
+    <h1>Imagem Dinâmica</h1>
+    <p>Tente abrir esse site em dispositivos diferentes ou aumente e diminua o navegador</p>
+
+    <picture>
+        <source media="(max-width: 750px)" srcset="Fotos/P.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="Fotos/M.png" type="image/png">
+        <img src="Fotos/G.png" alt="Imagem Grande Flexivel">
+    </picture>
+
+    <h1>Reproduzindo Audio</h1>
+    <!--<p>vamos repruduzir um audio em html 5</p>
+    <audio src="midias/happy-mistake.mp3" controls autoplay></audio> <--- MP3 WAV OGG-->
+
+    <audio preload="metadata" controls loop>
+        <source src="midias/happy-mistake.mp3" type="audio/mpeg">
+        <p>Se não conseguir reproduzir o audio, clique <a href="midias/happy-mistake.mp3">aqui</a> para baixar</p>
+    </audio>
+
+    <h1>Vídeos em HTLM 5</h1>
+    <p>Vamos testar vídeos em HTML 5</p>
+
+    <h2>Videos hospedados localmente</h2>
+    <p>Esse vídeo está hospedado no meu servidor</p>
+
+    <video width="560" poster="Fotos/limoes-capa.png" controls autoplay loop>
+    <source src="midias/meu-video.mp4" type="video/mp4">
+    
+    <source= src="midias/meu-video.ogv" type="video/ogv"> 
+    
+    <source= src="midias/meu-video.webm" type="video/webm"> 
+    
+    <source= src="midias/meu-video.m4v" type="video/m4v"> 
+    
+    <p>Seu navegador não tem compatibilidade com reprodução de videos</p>
+    </video>
+    <!--A tag <video> pode consumir muita banda. Não ideal.-->
+    
+    <h2>Inserindo vídeos do yotubue</h2>
+
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/3hng-hmSv2Y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+</body>
+</html>

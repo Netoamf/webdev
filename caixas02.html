@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agrupar tags</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: dimgray;
+        }
+        header{
+            text-align: center;
+            background-color: white;
+            padding: 10px;
+            margin: 10px;
+        }
+        main{
+            background-color: white;
+            padding: 10px;
+            text-align: justify;
+            margin: 10px;
+            border-radius: 10px;
+            box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, 0.281);
+        }
+        footer{
+            background-color: black;
+            color: white;
+            text-align: center;
+            padding: 4px;
+            margin: 0px;
+        }
+
+        footer > p{
+            margin: 0px;
+        }
+
+        article{
+            background-color: lightgray;
+        }
+
+        article > aside{
+            background-color: rgb(133, 133, 133);
+        }
+
+        nav{
+            background-color: gray;
+            padding: 3px;
+            box-shadow: 2px 2px 7px 1px rgba(0, 0, 0, 0.404);
+        }
+
+        nav >a {
+            text-decoration: none;
+            color: white;
+            font-weight: bold;
+            margin-right: 20px;
+        }
+
+        nav >a:hover{
+            text-decoration: underline;
+        }
+
+        #titulo{
+            text-align: left;
+            margin: 2px;
+            padding: 2px;
+        }
+
+        div#bola {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+            background-color: white;
+            border-radius: 50%;
+            box-shadow: inset 10px 10px 10px 2px rgba(0, 0, 0, 0.301);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <nav>
+            <a href="#">Esportes</a>
+            <a href="#">Política</a>
+            <a href="#">Economia</a>
+            <a href="#">Cultura</a>
+            <a href="#">Fofoca</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section id="noticias">
+            <header id="titulo">
+                <h1>Noticias sobre o Brasil</h1>
+            </header>
+            <article>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eos dolores obcaecati tempore laborum nihil impedit. Tempora laborum similique soluta est alias non omnis aspernatur rem reiciendis eaque, labore dicta commodi.</p>
+                <aside>
+                    <p>Artigo escrito por antonio morais</p>
+                </aside>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Desenvolvido por antonio morais</p>
+    </footer>
+    <div id="bola"></div>
+
+
+
+</body>
+</html>

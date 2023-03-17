@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+        
+        div{
+            display: inline-block;
+            text-align: center;
+            border: 1px solid black;
+            height: 200px;
+            width: 200px;
+        }
+
+        div > p {
+            display: none;
+        }
+        .comeco{
+            background-color: aqua;
+        }
+        .meio{
+            background-color: aquamarine;
+        }
+        .fim{
+            background-color: lightsalmon;
+        }
+        
+        div:hover {
+            background-color: rgba(147, 172, 192, 0.39);
+        }
+
+        div:hover >p {
+            display: block;
+            color: black;
+            text-align: center;
+            font-weight: bolder;
+            font-size: 3em;
+            background-color: rgb(184, 6, 6);
+            width:200px;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="comeco">
+        01
+    </div>
+    
+    <div class="meio">
+        02
+        <p style="text-align: center;" >Achou o prêmio!</p>
+    </div>
+    
+    <div class="fim">
+        03
+    </div>
+</body>
+</html>
