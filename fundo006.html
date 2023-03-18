@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fundo fixo de tela</title>
+    <style>
+        
+        header{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-weight: lighter;
+            color: white;
+            text-align: center;
+            margin: auto;
+            padding: 10px;
+        }
+        #container {
+            position: relative;
+            height: 96vh;
+
+        }
+
+        #conteudo {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+        }
+        #texto2{
+            position: absolute;
+            left: 50%;
+            top: -10%;
+            transform: translate(-50%, -50%);
+        }
+        body{
+            background: black url(Fotos/background-photo.jpg) no-repeat fixed center center;
+            background-size: cover;
+        }
+        main{
+            font-family: monospace;
+            color: white;
+            font-size: 2em;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+   <main>
+        <section id="container">
+            <header id="conteudo">
+                <h1>RESPONSIVE FULL BACKGROUND IMAGE</h1>
+            </header>
+        </section>
+        
+        <section id="container">
+            <p id="texto2">Ajuste sua tela</p>
+        </section>
+
+   </main>
+</body>
+</html>
