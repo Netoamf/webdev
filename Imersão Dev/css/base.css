@@ -1,0 +1,11 @@
+:root{
+   --color-first: rgb(35, 240, 144);
+   --color-second: rgb(35, 165, 240);
+   --color-third: rgb(255, 255, 255);
+   --color-fourth: rgb(0, 0, 0);
+
+}
+body{
+    background-color: #3A4042;
+    font-family: 'Press Start 2P', cursive;
+}

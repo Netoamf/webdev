@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+.main-title{
+    color: var(--color-first);
+    text-shadow: 4px 4px 0px var(--color-fourth);
+    text-align: center;
+    font-size: 50px;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}

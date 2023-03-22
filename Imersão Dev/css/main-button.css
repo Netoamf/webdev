@@ -1,0 +1,27 @@
+.main-button{
+    width: 420px;
+    height: 55px;
+    display: block;
+    margin: auto;
+    margin-bottom: 15px;
+    color: var(--color-third);
+    background-color: var(--color-second);
+    font-family: inherit;
+    box-shadow: 4px 4px 0px black;
+    border-radius: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    transition: transform 200ms ease-in-out;
+
+}
+
+.main-button:hover{
+    background-color: rgb(94, 190, 245);
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+.main-button:active{
+    background-color: rgb(4, 105, 163);
+    transform: scale(0.98);
+    text-decoration: none;
+}
