@@ -1,0 +1,20 @@
+button{
+    margin-top: 12px;
+    padding: 4px 8px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    font-family: monospace;
+    box-shadow: 2px 2px 4px 1px rgba(255, 255, 255, 0.336);
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(216, 215, 215);
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+
+button:active{
+    transform: scale(0.98);
+    text-decoration: none;
+}

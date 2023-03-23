@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversor de Moedas</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/page-title.css">
+    <link rel="stylesheet" href="css/page-subtitle.css">
+    <link rel="stylesheet" href="css/page-logo.css">
+    <link rel="stylesheet" href="css/alura-logo.css">
+    <link rel="stylesheet" href="css/label.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="stylesheet" href="css/button.css">
+    <link rel="stylesheet" href="css/h2.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="page-title">Conversor de Moedas</h1>
+            <p class="page-subtitle">Descubra os valores em dolar, euro e yen</p>
+        </header>
+        
+        <main>
+            <img class="page-logo" src="https://www.alura.com.br/assets/img/imersoes/dev-2021/logo-imersao-conversor-de-moedas.svg" alt=""> <br><br>
+            
+            <label for="valor">Insira o valor</label> <br>
+            
+            <input id="valor" size="2" type="number"> <br>
+            
+            <button class="button-real" type="submit" onclick="converterParaReal()">Converter para Real</button>
+            
+            <h2 id="valorConvertidoParaReal"></h2>
+
+            <button class="button-euro" type="submit" onclick="converterParaEuro()">Converter para Euro</button>
+            
+            <h2 id="valorConvertidoParaEuro"></h2>
+
+            <button class="button-yuan" type="submit" onclick="converterParaYuan()">Converter para Yuan</button>
+            
+            <h2 id="valorConvertidoParaYuan"></h2>
+        </main>
+        
+        <footer>
+            <a href="https://alura.com.br/" target="_blank"><img src="https://www.alura.com.br/assets/img/home/alura-logo.svg" alt="" class="alura-logo"></a>
+        </footer>
+    </div>
+    
+<script src="js/script.js"></script>
+</body>
+</html>
