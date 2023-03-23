@@ -11,7 +11,7 @@ const img = document.createElement("img");
 const listBanners = document.querySelector(".list-banners")
 
 img.src = "imagens/Curso-JavaScript-Thumbnail.jpg";
-img.alt = "Curso de JavaScrip do Professor Gustavo Guanabara";
+img.alt = "Curso de JavaScrip ";
 img.classList.add("main-banners");
 
-listBanners.insertAdjacentHTML("beforeend", img);
+listBanners.insertAdjacentElement("beforeend", img);
