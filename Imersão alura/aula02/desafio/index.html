@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap" rel="stylesheet">
     
-    
+    <link rel="stylesheet" href="css/h3.css">
     <link rel="stylesheet" href="css/body.css">
     <link rel="stylesheet" href="css/page-title.css">
     <link rel="stylesheet" href="css/page-subtitle.css">
@@ -17,6 +17,7 @@
     <link rel="stylesheet" href="css/container.css">
     <link rel="stylesheet" href="css/rocket.css">
     <link rel="stylesheet" href="css/core.css">
+    <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
     <div class="container">
@@ -32,9 +33,9 @@
             </section>
             
             <section class="core">
-                <label  for="distancia">Insira a distancia da estrela em anos luz</label> <br>
+                <label class="main-label" for="distancia">Insira a distancia da estrela em anos luz</label> <br>
                 <input class="caixa" id="distancia" type="number" size="2"> <br>
-                <button class="button">Calcular!</button><br>
+                <button class="button" type="submit" onclick="converterParaKm()">Calcular!</button><br>
             </section>
             <h2 id="valorConvertidoParaKm"></h2>
             
@@ -47,10 +48,11 @@
     <section class="footer">
         <footer class="main-footer">
             <a class="logo" href="https://www.youtube.com/playlist?list=PL9kh2PqoK0oEGNpRjkOKEHNPcT74p4twl" target="_blank" rel="external">
-                <img src="imagens/youtube_logo.png" alt="Logo para a playlist do curso">
+                <img src="imagens/unnamed.png" alt="Logo para a playlist do curso">
             </a>
             <h3 class="title">Imersão Dev</h3>
         </footer>
     </section>
+    <script src="js/script.js"></script>
 </body>
 </html>

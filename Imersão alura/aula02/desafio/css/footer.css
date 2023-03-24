@@ -1,0 +1,27 @@
+.main-footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Fira Code', monospace;
+}
+
+.main-footer .logo{
+    margin-bottom: 10px;
+}
+.main-footer .title{
+    color: rgb(255, 0, 43);
+    font-size: 20px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+}
+
+img{
+    height: 5vh;
+    width: 5vh;
+    object-fit: cover;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}

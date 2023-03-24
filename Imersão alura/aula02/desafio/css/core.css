@@ -1,6 +1,6 @@
 .core{
     margin-top: 20px;
-    margin-bottom: 20px;
+    margin-bottom: 5px;
     font-family: 'Fira Code', monospace;
 }
 
@@ -11,6 +11,7 @@
     cursor: pointer;
     display: block;
     margin: auto;
+    margin-bottom: 10px;
     box-shadow: 4px 4px 0px rgba(0, 0, 0, 0.623);
     width: 200px;
     font-size: 1.2em;
@@ -37,7 +38,7 @@
     width: 300px;
     height: 50px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 20px;
     border: 3px solid black;
     box-shadow: 3px 3px 3px black;
     display: block;
@@ -45,4 +46,9 @@
     font-family: inherit;
     box-sizing: border-box;
     font-size: 1.2em;   
+}
+
+.core > .main-label{
+    padding-bottom: 15px;
+    color: rgb(255, 255, 255);
 }
