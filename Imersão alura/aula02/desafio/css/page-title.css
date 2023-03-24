@@ -1,0 +1,18 @@
+.page-title{
+    color: rgb(255, 255, 255);
+    /*margin: 0 0 5px;*/
+    font-size: 3rem;
+    /*min-width: 560px;*/
+    font-weight: bold;
+    text-align: center;
+    font-family: 'Press Start 2P', cursive;
+    padding-top: 30px;
+    /*padding-bottom: 20px;*/
+    margin: auto;
+}
+@media (max-width: 767px) {
+    .page-title{
+        font-size: 2rem;
+    }
+    
+}

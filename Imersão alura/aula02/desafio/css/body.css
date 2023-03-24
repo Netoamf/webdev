@@ -1,5 +1,8 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    background: black url(../imagens/png-transparent-earth-euclidean-rocket-launch-material-rocket-launch-png-material-globe-computer-wallpaper-removebg-preview.png) no-repeat fixed center center;
+    background: black url(../imagens/starry-background-blue-night-sky-design-illustration-vector.jpg) no-repeat fixed center center;
+    width: 100vw;
+    background-size: cover;
+    /*background: black url(../imagens/png-transparent-earth-euclidean-rocket-launch-material-rocket-launch-png-material-globe-computer-wallpaper-removebg-preview.png) no-repeat fixed center center; */
     color: white;
 }

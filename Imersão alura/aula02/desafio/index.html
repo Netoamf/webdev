@@ -5,29 +5,52 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora galatica</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code&family=Press+Start+2P&display=swap" rel="stylesheet">
+    
+    
     <link rel="stylesheet" href="css/body.css">
+    <link rel="stylesheet" href="css/page-title.css">
+    <link rel="stylesheet" href="css/page-subtitle.css">
+    <link rel="stylesheet" href="css/page-Text.css">
+    <link rel="stylesheet" href="css/container.css">
+    <link rel="stylesheet" href="css/rocket.css">
+    <link rel="stylesheet" href="css/core.css">
 </head>
 <body>
     <div class="container">
         <header>
             <h1 class="page-title">Calculadora Galatica</h1>
             <h2 class="page-subtitle">Vamos para as estrelas?</h2>
-            <p class="page-firstText">Calcule a distancia em km's da terra para as estrelas mais próximas!</p>
+            <p class="page-Text">Calcule a distancia em km's da terra para as estrelas mais próximas!</p>
         </header>
         <main>
-            <label  for="distancia">Insira a distancia da estrela em anos luz</label> <br>
-            <input id="anosLuz" type="number" size="2"> <br>
-            <button class="button">Calcular!</button><br>
+            
+            <section class="rocket">
+                <img src="imagens/png-transparent-rocket-launch-spacecraft-computer-icons-flying-the-red-rocket-outer-space-cartoon-vehicle-thumbnail-removebg-preview.png" alt="">
+            </section>
+            
+            <section class="core">
+                <label  for="distancia">Insira a distancia da estrela em anos luz</label> <br>
+                <input class="caixa" id="distancia" type="number" size="2"> <br>
+                <button class="button">Calcular!</button><br>
+            </section>
             <h2 id="valorConvertidoParaKm"></h2>
+            
         </main>
 
+        
+        
+    </div>
+    
+    <section class="footer">
         <footer class="main-footer">
             <a class="logo" href="https://www.youtube.com/playlist?list=PL9kh2PqoK0oEGNpRjkOKEHNPcT74p4twl" target="_blank" rel="external">
                 <img src="imagens/youtube_logo.png" alt="Logo para a playlist do curso">
             </a>
             <h3 class="title">Imersão Dev</h3>
         </footer>
-        
-    </div>
+    </section>
 </body>
 </html>
