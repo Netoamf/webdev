@@ -16,7 +16,7 @@ body::before{
     width: 100%;
     height: 368px;
 
-   
+   /*tecnica para enivar o background para tras */
     position: absolute;
     top: 0;
     left: 0;
@@ -193,4 +193,45 @@ fieldset legend{
   .checkbox-wrapper input:focus + label::before {
     outline: 2px solid black;
   }
-   
+
+  footer{
+    background: #F0F0F4;
+    height: 136px;
+    display: flex;
+    flex-direction: column;
+    
+    padding: 40px 64px;
+
+    margin-bottom: 100px;
+    border-top: 1px solid #D6D6D6;
+    border-radius: 0px 0px 8px 8px;
+  }
+
+  footer .button{
+    height: 56px;
+    border-radius: 8px;
+    border: none;
+    background: #04D361;
+
+    font-family: 'Archive', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    color: #FFFFFF;
+    cursor: pointer;
+    
+
+  }
+  
+  footer .button:hover{
+    background: #06a54e;
+    
+  }
+
+  footer .button:active{
+    transform: scale(0.99);
+  }
+
+  input:invalid{
+    border: 1px solid tomato;
+  }
