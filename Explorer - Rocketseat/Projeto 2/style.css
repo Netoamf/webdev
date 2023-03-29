@@ -1,8 +1,9 @@
 body{
     font-family: 'Mulish', sans-serif;
-    background-image: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(227, 255, 248, 0.38) 100%);
+    background-image: linear-gradient(180deg, rgba(227, 255, 248, 0) 82.08%, rgba(170, 245, 226, 0.432) 100%);
     margin: 0px;
     padding: 0px;
+    min-height: 100vh;
 }
 
 .page{
@@ -31,11 +32,13 @@ ul a{
     color: #7D7987;
     font-size: 18px;
     cursor: pointer;
+    opacity: 0.5;
 }
 
 ul li a:hover{
     font-weight: bold;
     color: #1F1534;
+    opacity: 1;
 }
 main{
     display: flex;
