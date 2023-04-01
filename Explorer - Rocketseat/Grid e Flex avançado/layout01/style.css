@@ -1,0 +1,52 @@
+body,
+ul,
+li,
+p{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 1.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+@font-face {
+    font-family: 'DnD';
+    src: url('fonts/DnDC.ttf') format('opentype');
+    font-weight: normal;
+    }
+a{
+    text-decoration: none;
+    color: #f7f3ee;
+}
+body{
+  background: #cec2ae;  
+  font-family: 'DnD';
+  color: white;
+  font-size: 2rem;
+}
+.header img{
+    height: 3rem;
+}
+.header{
+    background: #e8443c;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.menu{
+    display: flex;
+    
+}
+.menu li{
+    margin-left: 10px;
+}
+.menu li a{
+    display: block;
+    padding: 10px;
+
+}
+
+h1{
+    text-align: center;
+}
