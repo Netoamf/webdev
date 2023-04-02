@@ -15,16 +15,18 @@ p{
     }
 a{
     text-decoration: none;
-    color: #f7f3ee;
+    color:#f7f3ee;
 }
 body{
-  background: #cec2ae;  
-  font-family: 'DnD';
-  color: white;
+  background: #ccccac9c;  
+  font-family:'Open Sans', sans-serif;
+  font-weight: bold;
+  color: #373636;
   font-size: 2rem;
 }
 .header img{
     height: 3rem;
+    max-width: 100%;
 }
 .header{
     background: #e8443c;
@@ -47,6 +49,30 @@ body{
 
 }
 
+
+/* ================================================================= */
+
+
+
 h1{
     text-align: center;
+    font-family:'Open Sans', sans-serif;
+    font-weight: bold;
+    color: #373636;
+    font-size: 3rem;
+}
+
+div img{
+    max-width: 100%;
+    display: block;
+}
+
+.flexbox{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+
+.flexbox >div{
+    flex: 1 1 200px;
 }
